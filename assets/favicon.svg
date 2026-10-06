@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Container -->
+  <rect width="100" height="100" rx="24" fill="url(#bg-grad)" stroke="#6366f1" stroke-width="3" stroke-opacity="0.5" />
+  
+  <!-- KP Logo Typography -->
+  <text x="50%" y="58%" font-family="Consolas, monospace, sans-serif" font-weight="900" font-size="38" fill="url(#text-grad)" text-anchor="middle" dominant-baseline="middle" letter-spacing="-1">
+    KP
+  </text>
+  
+  <!-- Top Accent Dot -->
+  <circle cx="80" cy="22" r="5" fill="#10b981" />
+</svg>
