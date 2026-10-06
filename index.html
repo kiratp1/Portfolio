@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kirat Popli | First-Year Engineering Student Portfolio</title>
+
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Personal Developer Portfolio of Kirat Popli - First-Year B.Tech Student in IT (AI & Robotics) at MITS Gwalior. Exploring C++, Data Structures, and Modern Web Development.">
+  <meta name="author" content="Kirat Popli">
+  <meta name="keywords" content="Kirat Popli, MITS Gwalior, Engineering Student Portfolio, C++, Data Structures, Web Development, Technical Club Recruitment">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kirat Popli | Developer Portfolio">
+  <meta property="og:description" content="First-Year Engineering Student (IT-AIR) @ MITS Gwalior. Passionate about problem-solving and building web projects.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. HEADER / GLASS NAVIGATION BAR
+       ========================================================================== -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-tag">&lt;KP/&gt;</span>
+        <span>Kirat Popli</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#learning" class="nav-link">Roadmap</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#why-club" class="nav-link">Why Club?</a>
+        <a href="#contact" class="btn btn-primary btn-sm">Contact Me</a>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#about" class="nav-link mobile-link">About Me</a>
+      <a href="#skills" class="nav-link mobile-link">Skills</a>
+      <a href="#projects" class="nav-link mobile-link">Projects</a>
+      <a href="#learning" class="nav-link mobile-link">Learning Roadmap</a>
+      <a href="#education" class="nav-link mobile-link">Education</a>
+      <a href="#why-club" class="nav-link mobile-link">Why I Want to Join</a>
+      <a href="#contact" class="btn btn-primary mobile-link">Contact Me</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         2. HERO SECTION
+         ========================================================================== -->
+    <section id="hero" class="section hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span id="status-text">⚡ Currently learning Data Structures & C++</span>
+          </div>
+
+          <h1 class="hero-title gradient-text" id="hero-name">KIRAT POPLI</h1>
+          <h2 class="hero-subtitle" id="hero-subtitle">
+            First-Year Engineering Student • IT (AIR)
+          </h2>
+
+          <p class="hero-description" id="hero-bio">
+            Fresher passionate about technology, algorithm design, and building real-world projects. Eager to solve complex problems and contribute to technical communities.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+              View Projects
+            </a>
+            <a href="https://github.com/kiratp1" target="_blank" rel="noopener noreferrer" class="btn btn-outline github-link">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Contact Me
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              <span>📍</span> <span>MITS Gwalior</span>
+            </div>
+            <div class="hero-meta-item">
+              <span>🎓</span> <span>Batch 2026–30</span>
+            </div>
+            <div class="hero-meta-item">
+              <span>🚀</span> <span>Club Applicant</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terminal Widget -->
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <span class="terminal-title">kirat_profile.cpp — C++ Console</span>
+            <span>UTF-8</span>
+          </div>
+          <div class="terminal-body" id="terminal-body">
+            <!-- Simulated via js/interactive.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. ABOUT ME SECTION
+         ========================================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">01. Getting to Know Me</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">A fresher starting strong on an engineering journey fueled by curiosity.</p>
+        </div>
+
+        <div class="about-card reveal-on-scroll">
+          <div class="about-text">
+            <p id="about-bio-long">
+              I am a first-year undergraduate student pursuing B.Tech in Information Technology (AI & Robotics) at MITS Gwalior. Coming into college, my goal has been simple: learn by building. I am actively exploring computer science fundamentals, practicing algorithmic problem solving in C++, and learning web technologies step by step.
+            </p>
+            <p>
+              Rather than waiting for theoretical concepts to be taught in class, I enjoy diving into code hands-on. Whether it is solving problem sets in C++, understanding how DOM events trigger in JavaScript, or designing dark-themed user interfaces, I believe consistency and curiosity are the keys to growing as a developer.
+            </p>
+          </div>
+
+          <div class="about-highlights">
+            <div class="highlight-box">
+              <div class="highlight-icon">🌱</div>
+              <h4>Fresher Journey</h4>
+              <p>First-year student actively establishing CS core foundations.</p>
+            </div>
+            <div class="highlight-box">
+              <div class="highlight-icon">🛠️</div>
+              <h4>Build to Learn</h4>
+              <p>Creating utility projects to solidify programming logic.</p>
+            </div>
+            <div class="highlight-box">
+              <div class="highlight-icon">🤝</div>
+              <h4>Team Player</h4>
+              <p>Eager to collaborate, receive reviews, and learn from seniors.</p>
+            </div>
+            <div class="highlight-box">
+              <div class="highlight-icon">🎯</div>
+              <h4>Club Goal</h4>
+              <p>Dedicated to contributing energy and skills to club projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. SKILLS SECTION
+         ========================================================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">02. My Toolkit</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">Realistic view of tools and concepts I am actively mastering.</p>
+        </div>
+
+        <div id="skills-container" class="skills-wrapper">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. PROJECTS SECTION
+         ========================================================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">03. Hands-On Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Student & showcase applications built to solve problems and learn core concepts.</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="projects-filter reveal-on-scroll">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="c++">C++ / CLI</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div id="projects-grid" class="projects-grid">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. CURRENTLY BUILDING / LEARNING (FRESHER ROADMAP)
+         ========================================================================== -->
+    <section id="learning" class="section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">04. Learning Path</span>
+          <h2 class="section-title">Currently Building & Roadmap</h2>
+          <p class="section-subtitle">I may be early in my journey, but I am actively progressing every day.</p>
+        </div>
+
+        <div id="roadmap-timeline" class="roadmap-timeline">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. EDUCATION SECTION
+         ========================================================================== -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">05. Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">My current academic pursuit and foundational coursework.</p>
+        </div>
+
+        <div class="education-card reveal-on-scroll">
+          <div class="edu-grid">
+            <div>
+              <h3 class="edu-institution" id="edu-institution">Madhav Institute of Technology and Science (MITS), Gwalior</h3>
+              <div class="edu-degree" id="edu-degree">Bachelor of Technology (B.Tech)</div>
+              <div class="edu-batch" id="edu-batch">First Year (2026 - 2030)</div>
+              <p style="color: var(--text-secondary); margin-bottom: 1rem;" id="edu-branch">
+                Branch: Information Technology (AI & Robotics)
+              </p>
+            </div>
+
+            <div class="edu-coursework">
+              <h4>Key Coursework & Fundamentals:</h4>
+              <div class="coursework-tags" id="coursework-tags">
+                <!-- Course tags populated by app.js -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. WHY I WANT TO JOIN THE CLUB SECTION
+         ========================================================================== -->
+    <section id="why-club" class="section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">06. Technical Club Application</span>
+          <h2 class="section-title">Why I Want to Join</h2>
+          <p class="section-subtitle">What drives my recruitment application and how I aim to contribute.</p>
+        </div>
+
+        <div id="why-grid" class="why-grid">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         9. CONTACT & SOCIALS SECTION
+         ========================================================================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">07. Connect With Me</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Have a question or want to collaborate on a project? Reach out!</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info-card reveal-on-scroll">
+            <div>
+              <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Let's Connect</h3>
+              <p style="color: var(--text-secondary); font-size: 0.95rem;">
+                I am always excited to discuss coding, college projects, and technical club events. Feel free to send an email or drop a message!
+              </p>
+
+              <div class="contact-email-box">
+                <div>
+                  <span style="font-size: 0.78rem; color: var(--text-muted); display: block;">DIRECT EMAIL</span>
+                  <span class="email-address" id="display-email">26irki29@mitsgwl.ac.in</span>
+                </div>
+                <button class="btn btn-secondary btn-sm" id="copy-email-btn">
+                  Copy Email
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <h4 style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.75rem;">FIND ME ON</h4>
+              <div class="social-links-grid">
+                <a href="https://github.com/kiratp1" target="_blank" rel="noopener noreferrer" class="social-btn github-link">
+                  <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  GitHub
+                </a>
+                <a href="https://linkedin.com/in/kiratpopli" target="_blank" rel="noopener noreferrer" class="social-btn linkedin-link">
+                  <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Form -->
+          <div class="contact-form-card reveal-on-scroll">
+            <form id="contact-form">
+              <div class="form-group">
+                <label class="form-label" for="form-name">Your Name</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. Senior / Peer Name" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="form-email">Your Email</label>
+                <input type="email" id="form-email" class="form-input" placeholder="e.g. email@example.com" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="form-msg">Message</label>
+                <textarea id="form-msg" class="form-textarea" placeholder="Write your message or club query here..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       10. FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-text">
+        © 2026 <strong>Kirat Popli</strong> • Designed & Built with Vanilla Web Tech.
+      </div>
+      <a href="#hero" class="back-to-top" aria-label="Back to Top">
+        ↑
+      </a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/interactive.js"></script>
+</body>
+</html>
